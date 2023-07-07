@@ -22,7 +22,7 @@ const AdsCarousel = () => {
             }}
             modules={[Autoplay, Pagination, Navigation]}
         >
-            {Array(5)
+            {Array(1)
                 .fill(0)
                 .map((_, i) => (
                     <SwiperSlide key={i}>
