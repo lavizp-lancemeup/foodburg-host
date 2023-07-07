@@ -1,4 +1,4 @@
-import React } from 'react';
+import React from 'react';
 import { Select, FormLabel, SelectProps, FormControl } from '@chakra-ui/react';
 
 interface Props extends SelectProps {
