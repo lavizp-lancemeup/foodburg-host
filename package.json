@@ -1,0 +1,44 @@
+{
+    "name": "foodbourg-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build && next export -o build/",
+        "start": "next start",
+        "lint": "next lint",
+        "gen:theme-typings": "chakra-cli tokens theme/index.ts --out theme/chakra.d.ts",
+        "postinstall": "npm run gen:theme-typings"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^2.5.1",
+        "@emotion/react": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@hookform/resolvers": "^3.1.0",
+        "@tanstack/react-query": "^4.29.7",
+        "axios": "^1.4.0",
+        "eslint": "8.41.0",
+        "eslint-config-next": "13.4.3",
+        "framer-motion": "^10.12.16",
+        "next": "13.4.3",
+        "react": "^18.2.0",
+        "react-dom": "18.2.0",
+        "react-hook-form": "^7.43.9",
+        "react-icons": "^4.8.0",
+        "swiper": "^9.3.2",
+        "yup": "^1.1.1"
+    },
+    "devDependencies": {
+        "@chakra-ui/cli": "^2.4.1",
+        "@types/node": "20.2.1",
+        "@types/react": "^18.2.7",
+        "@types/react-dom": "18.2.4",
+        "prettier": "^2.8.8",
+        "typescript": "5.0.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LanceMe-Up/foodbourg-frontend-2.0"
+    },
+    "homepage": ""
+}
