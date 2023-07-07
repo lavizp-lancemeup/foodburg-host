@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Text, HStack, Stack, Button } from '@chakra-ui/react';
+import { Box, Text, HStack, Stack, Button } from '@chakra-ui/react';
 import { AiFillTag, AiOutlineArrowLeft } from 'react-icons/ai';
 import { SlNote } from 'react-icons/sl';
 import { RxCross1 } from 'react-icons/rx';

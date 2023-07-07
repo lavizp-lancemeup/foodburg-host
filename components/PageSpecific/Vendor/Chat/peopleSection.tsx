@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Flex, Stack, HStack } from '@chakra-ui/react';
+import { Box, Text, Stack, HStack } from '@chakra-ui/react';
 import Image from 'next/image';
 
 function PeopleSection() {
@@ -14,7 +14,7 @@ function PeopleSection() {
                             <Box position="relative" width="24px" height="24px" rounded="full">
                                 <Image src="/logo_restro.png" alt="asd" fill />
                             </Box>
-                            <Text>Sachin</Text>
+                            <Text>Sachin{idx}</Text>
                         </HStack>
                     </>
                 ))}

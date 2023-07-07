@@ -19,7 +19,6 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import Link from 'next/link';
-import SearchBar from '@/components/SearchBar/SearchBar';
 import IconWithBadge from '@/components/Badge/IconWithBadge';
 import { MdPerson } from 'react-icons/md';
 import { FaShoppingCart } from 'react-icons/fa';
@@ -76,7 +75,7 @@ const Header = () => {
                             display={['none', 'none', 'none', 'flex', 'flex']}
                             alignItems="center"
                         >
-                            <Button variant="brand" gap={2}>
+                            <Button variant="brand" gap={2} onClick={() => setLoggedIn(true)}>
                                 <Image src="/icons/delivery.png" alt="delivery" height={20} width={20} />
                                 Delivery
                             </Button>

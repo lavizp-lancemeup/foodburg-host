@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Button, HStack, Input, InputGroup, InputLeftElement } from '@chakra-ui/react';
+import { Box, Text, Button, Input, InputGroup, InputLeftElement } from '@chakra-ui/react';
 import { AiOutlineMail } from 'react-icons/ai';
 
 function ResetPassword() {

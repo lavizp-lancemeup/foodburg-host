@@ -2,8 +2,8 @@ import React from 'react';
 import DeliverySVG from '@/components/SVG/DeliverySVG';
 import DinningSVG from '@/components/SVG/DinningSVG';
 import TakeawaySVG from '@/components/SVG/TakeawaySVG';
-import { Flex, Text, chakra, Input, Icon, Card, CardBody, Grid, useMediaQuery, Button } from '@chakra-ui/react';
-import { AiOutlineArrowRight, AiOutlineSearch } from 'react-icons/ai';
+import { Flex, Text, chakra, Card, CardBody, Grid, useMediaQuery, Button } from '@chakra-ui/react';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const LandingPageHero = () => {
     const [isMobileDevice] = useMediaQuery('(max-width: 480px)', {

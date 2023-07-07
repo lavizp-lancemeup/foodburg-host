@@ -1,6 +1,5 @@
 import React from 'react';
-import { Box, Button, Image, Input, Text } from '@chakra-ui/react';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
+import { Box, Button, Input, Text } from '@chakra-ui/react';
 import { BsFillCloudDownloadFill } from 'react-icons/bs';
 
 function DropCV() {

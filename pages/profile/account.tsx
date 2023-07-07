@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileNav from '@/components/PageSpecific/Profile/profile-nav';
-import { Box, Divider, Flex, GridItem, SimpleGrid, Text } from '@chakra-ui/react';
+import { Box, Flex, GridItem, SimpleGrid, Text } from '@chakra-ui/react';
 import { AiFillEdit } from 'react-icons/ai';
 const personalData = [
     {

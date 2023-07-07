@@ -1,6 +1,6 @@
 import { Box, Step, StepIcon, StepIndicator, StepSeparator, StepStatus, Stepper, useSteps } from '@chakra-ui/react';
 
-const steps = [{ title: 'Details' }, { title: 'Cast & Crews Details' }, { title: 'Tickets' }];
+const steps = [{ title: '' }, { title: '' }, { title: '' }];
 
 function StepperComponent({ index }: { index: number }) {
     const { activeStep } = useSteps({
@@ -18,6 +18,7 @@ function StepperComponent({ index }: { index: number }) {
                             border: 'none',
                         }}
                     >
+                        {step.title}
                         <Box position="relative">
                             <StepStatus
                                 complete={

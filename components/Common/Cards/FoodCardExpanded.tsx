@@ -3,8 +3,6 @@ import { Card, CardBody, chakra, Flex, Stack, Text, CardFooter, Button } from '@
 import Image from 'next/image';
 import { FaShoppingCart } from 'react-icons/fa';
 
-import { AiOutlineArrowRight } from 'react-icons/ai';
-
 const FoodCardExpanded = () => {
     const getFoodTypeBg = (foodType: string) => {
         if (foodType == 'Veg') {

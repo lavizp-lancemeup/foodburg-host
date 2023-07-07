@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, GridItem, Flex, Text, chakra, usePrefersReducedMotion } from '@chakra-ui/react';
-import SectionTitle from '@/components/Common/SectionTitle';
 import MapSVG from '@/components/SVG/MapSVG';
 import RestaurantSVG from '@/components/SVG/RestaurantSVG';
 import OrderConfirmedSVG from '@/components/SVG/OrderConfirmedSVG';

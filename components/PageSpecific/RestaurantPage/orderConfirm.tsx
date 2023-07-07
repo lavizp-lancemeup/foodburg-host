@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Text, HStack, Stack, Button } from '@chakra-ui/react';
-import { AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiOutlineArrowLeft } from 'react-icons/ai';
+import { Box, Text, HStack, Button } from '@chakra-ui/react';
+import { AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { FaCheck } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs';
 

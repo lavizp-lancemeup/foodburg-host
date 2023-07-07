@@ -1,6 +1,6 @@
 import CheckBox from '@/components/Checkbox/CheckBox';
 import { Box, Flex, Text, Button, Input, InputGroup, InputRightElement, HStack } from '@chakra-ui/react';
-import { AiFillApple, AiOutlineEye, AiOutlineGoogle, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineEye, AiOutlineMail } from 'react-icons/ai';
 
 function RegisterAsRestro() {
     return (

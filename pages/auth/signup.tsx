@@ -1,14 +1,4 @@
-import {
-    AbsoluteCenter,
-    Box,
-    Flex,
-    Text,
-    Button,
-    Input,
-    InputGroup,
-    InputRightElement,
-    Divider,
-} from '@chakra-ui/react';
+import { Box, Flex, Text, Button, Input, InputGroup, InputRightElement, Divider } from '@chakra-ui/react';
 import { AiFillApple, AiOutlineEye, AiOutlineGoogle, AiOutlineMail } from 'react-icons/ai';
 
 function Signup() {

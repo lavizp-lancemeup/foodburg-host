@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Flex, Input, InputGroup, InputRightElement, Text } from '@chakra-ui/react';
+import { Box, Flex, Input, InputGroup, InputRightElement, Text } from '@chakra-ui/react';
 import { AiFillLock, AiFillQuestionCircle } from 'react-icons/ai';
 import Image from 'next/image';
 function CircularCheckbox({ color }: { color: string }) {

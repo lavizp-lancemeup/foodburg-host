@@ -1,5 +1,5 @@
 import { DefaultPageLayout } from '@/components/Layout';
-import { Box, Flex, HStack, Icon, Stack, Text, Divider, Grid, GridItem, Button, chakra } from '@chakra-ui/react';
+import { Box, Flex, HStack, Icon, Stack, Text, Grid, GridItem, Button } from '@chakra-ui/react';
 import React, { ReactNode, Fragment, useState } from 'react';
 import Image from 'next/image';
 import { AiOutlineStar } from 'react-icons/ai';
@@ -11,7 +11,6 @@ import { GoLocation } from 'react-icons/go';
 import { FiFilter } from 'react-icons/fi';
 import { HiOutlineTag } from 'react-icons/hi';
 import { SlCalender } from 'react-icons/sl';
-import FoodCardExpanded from '@/components/Common/Cards/FoodCardExpanded';
 import OrderList from '@/components/PageSpecific/RestaurantPage/orderList';
 import OrderListConfirm from '@/components/PageSpecific/RestaurantPage/orderListConfirm';
 import OrderConfirm from '@/components/PageSpecific/RestaurantPage/orderConfirm';

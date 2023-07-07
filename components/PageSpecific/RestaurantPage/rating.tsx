@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { Box, Text, HStack, Stack, Button } from '@chakra-ui/react';
+import { Box, Text, HStack, Button } from '@chakra-ui/react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 function Rating({ goBack }: { goBack: () => void }) {
     const [stars, setStars] = useState<number>(0);
-    const onStarClick = (star: number) => {
-        setStars(star);
-    };
     return (
         <Box
             bg="white"

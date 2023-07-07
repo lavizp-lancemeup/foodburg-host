@@ -1,5 +1,5 @@
 import ProfileNav from '@/components/PageSpecific/Profile/profile-nav';
-import { Box, HStack, Table, TableContainer, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react';
+import { Box, HStack, Table, TableContainer, Tbody, Td, Thead, Tr } from '@chakra-ui/react';
 import React from 'react';
 import { AiOutlineEye } from 'react-icons/ai';
 import { BsThreeDotsVertical } from 'react-icons/bs';
